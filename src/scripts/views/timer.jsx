@@ -47,7 +47,7 @@ define([
 		 * @memberOf TimerView
 		 */
 		tick: function() {
-			var time = UsersCollection.first().get('time'),
+			var time = this.props.time,
 				seconds = time.seconds,
 				minutes = time.minutes;
 
