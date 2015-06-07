@@ -1,0 +1,230 @@
+{
+	"name": "html",
+	"questions": [
+		{
+			"question": "Какой элемент внутри секции <head> является обязательным?",
+			"type": "radio",
+			"answers": [{
+				"text": "<meta>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<title>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<style>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<link>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<base>",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какой элемент является необязательным и его можно опустить (два варианта)?",
+			"type": "checkbox",
+			"answers": [{
+				"text": "</head>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<html>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<ul>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<title>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<li>",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Какой атрибут элемента <html> включает механизм кэширования страницы?",
+			"type": "radio",
+			"answers": [{
+				"text": "offline",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "xmlns",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "manifest",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "network",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "cache",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Как установить кодировку документа?",
+			"type": "radio",
+			"answers": [{
+				"text": "<meta codebase='utf-8'>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<body charset='utf-8'>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<meta charset='utf-8'>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<meta lang='utf-8'>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<html lang='ru'>",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какой атрибут элемента <style> является необязательным в HTML5, но требуется в XHTML?",
+			"type": "radio",
+			"answers": [{
+				"text": "accesskey",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "media",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "dir",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "lang",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "type",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Олеся сохранила документ, но русские буквы в браузере отображаются квадратами. Коля посоветовал ей добавить строку <meta charset='utf-8'>, однако это не помогло. Что делать?",
+			"type": "radio",
+			"answers": [{
+				"text": "Проверить доктайп и заменить его на <!DOCTYPE html>.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Удалить <meta charset='utf-8'>.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Установить атрибут lang='ru' для <html>.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Изменить кодировку самого документа на UTF-8.",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "Добавить <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>.",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какая строка содержит ошибку?",
+			"type": "radio",
+			"answers": [{
+				"text": "<img src='black.jpg' alt='Люди в чёрном' />",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<img src='blacking-foo.jpg' alt='Троплейбус' />",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<img src=black.jpg alt=Люди в чёрном>",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Паше нужно установить число 10000 в поле формы. Что он должен написать",
+			"type": "radio",
+			"answers": [{
+				"text": "<input type='number' value='10000'>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<input type='number' value='1 * 1000'>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<input type='number' value='одна тысяча'>",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Как сделать кнопку для отправки формы (два варианта)?",
+			"type": "checkbox",
+			"answers": [{
+				"text": "<input type='reset'>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<input type='button'>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<button>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<input type='submit'>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<button type='button'>",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какой тег создаёт многострочное текстовое поле?",
+			"type": "radio",
+			"answers": [{
+				"text": "<input>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<pre>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<textarea>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<select>",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "<fieldset>",
+				"correct": false,
+				"checked": false
+			}]
+		}
+	]
+}

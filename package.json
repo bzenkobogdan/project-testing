@@ -1,0 +1,16 @@
+{
+  "name": "GeekHubTest",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Bzenko Bogdan",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "~1.3.12",
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-jsdoc": "^0.1.4",
+    "gulp-react": "^3.0.1",
+    "jsdoc": "^3.3.0-beta3",
+    "mongoose": "~4.0.4"
+  }
+}

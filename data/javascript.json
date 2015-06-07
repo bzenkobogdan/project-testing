@@ -1,0 +1,190 @@
+{
+	"name": "javascript",
+	"questions": [
+		{
+			"question": "Что делает код: break me;",
+			"type": "radio",
+			"answers": [{
+				"text": "Ломает интерпретатор javascript",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Выходит из текущего блока цикла или switch на метку 'me'",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "Выдает ошибку",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какие варианты подключения скрипта являются корректными с точки зрения современного стандарта HTML?",
+			"type": "checkbox",
+			"answers": [{
+				"text": "<script type='text/javascript' src='my.js'></script>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<script src='my.js'></script>",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "<хачу-javascript отсюда='my.js'>",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какие конструкции для циклов есть в javascript?",
+			"type": "radio",
+			"answers": [{
+				"text": "Только две: for и while.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Только одна: for.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Три: for, while и do...while.",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Сколько параметров можно передать функции ?",
+			"type": "radio",
+			"answers": [{
+				"text": "Ровно столько, сколько указано в определении функции.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Сколько указано в определении функции или меньше.",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "Сколько указано в определении функции или больше.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Любое количество.",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Чему равна сумма [] + 1 + 2?",
+			"type": "radio",
+			"answers": [{
+				"text": "1",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "NaN",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "undefined",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "'12'",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "Другое.",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Что делает оператор **?",
+			"type": "radio",
+			"answers": [{
+				"text": "Возводит в степень.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Умножает число само на себя.",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "Нет такого оператора.",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Есть ли разница между вызовами i++ и ++i?",
+			"type": "radio",
+			"answers": [{
+				"text": "Разница в значении, которое возвращает такой вызов.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Разница в значении i после вызова.",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "Нет никакой разницы.",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Может ли скрипт во время работы страницы подключить к ней другие внешние js-файлы?",
+			"type": "checkbox",
+			"answers": [{
+				"text": "Да, но только один раз.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Да, но только до полной загрузки страницы.",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "Да, сколько угодно файлов когда угодно.",
+				"correct": true,
+				"checked": false
+			}]
+		},{
+			"question": "Какое событие из этого списка не существует?",
+			"type": "radio",
+			"answers": [{
+				"text": "onmousescroll",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "onclick",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "onmouseover",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "onmousemove",
+				"correct": false,
+				"checked": false
+			},{
+				"text": "onkey",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "все существуют.",
+				"correct": false,
+				"checked": false
+			}]
+		},{
+			"question": "Какие из этих вариантов задают массив из элементов 'a', 'b' ?",
+			"type": "checkbox",
+			"answers": [{
+				"text": "var a = new Array('a','b')",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "var a = [ 'a', 'b' ]",
+				"correct": true,
+				"checked": false
+			},{
+				"text": "var a = 'a,b'.split(',')",
+				"correct": false,
+				"checked": false
+			}]
+		}
+	]
+}
