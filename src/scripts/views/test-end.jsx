@@ -32,10 +32,10 @@ define([
 
 			return (
 				<div>
-					<div className="jumbotron lead">
-						<p>Имя:{user.get('name')}</p>
-						<p>Времени осталось:{user.get('time').minutes + ':' + user.get('time').seconds}</p>
-						<p>Тест: {test.get('name')}</p>
+					<div className="result-block jumbotron lead">
+						<div>Имя:{user.get('name')}</div>
+						<div>Времени осталось:{user.get('time').minutes + ':' + user.get('time').seconds}</div>
+						<div>Тест: {test.get('name')}</div>
 						<div className="progress">
 							<div className="progress-bar"
 							role="progressbar"
